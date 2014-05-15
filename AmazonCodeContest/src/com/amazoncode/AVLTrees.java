@@ -221,29 +221,18 @@ public class AVLTrees {
 		}
 		return false;
 	}
-}
-
-/*class Test{
 	public static void main(String args[]){
-		AVLTrees avlTree = new AVLTrees(9);
-		avlTree.insert(5);
+		AVLTrees avlTree = new AVLTrees();
+		avlTree.insert(5,1);
 		
-		avlTree.insert(10);
-		
-		avlTree.insert(0);
-		
-		avlTree.insert(6);
-		
-		avlTree.insert(11);
-		
-		avlTree.insert(-1);
-		
-		avlTree.insert(1);
-		
-		avlTree.insert(2);
-		
+		avlTree.insert(2,2);
+		avlTree.insert(4,3);
+		avlTree.insert(7,4);
 		avlTree.preOrder();
 		avlTree.delete(10);
 		avlTree.preOrder();
 	}
-}*/
+}
+
+
+
